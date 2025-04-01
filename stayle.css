@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(53 136 136);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  width: 20rem;
+  height: 4rem;
+  border: 3px solid;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.label {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 1px;
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+#numerosFicticios {
+  width: 3rem;
+  margin-bottom: 1rem;
+  height: 1.3rem;
+}
+#button {
+  border-radius: 7px;
+  font-size: 1.1rem;
+  background-color: rgb(19 202 202);
+}
+#noHayLlamadas {
+  display: flex;
+  align-items: center;
+  width: 17rem;
+  height: 4rem;
+  color: red;
+  background-color: black;
+  justify-content: center;
+  border-radius: 1rem;
+}
+#table {
+  background-color: white;
+  padding: 7px;
+}
+th {
+  background-color: #cbe7ff;
+  padding: 5px;
+  border: solid;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 0.7rem;
+}
+.promedio {
+  background-color: white;
+  width: 20.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+}

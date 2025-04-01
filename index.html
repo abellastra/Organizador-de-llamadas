@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Listar de llamadas</h1>
+    <label for="numerosFicticios" class="label"
+      >Ingrese la cantidad de llamadas ficticias
+    </label>
+    <div class="llamadasFicticias">
+      <input type="number" id="numerosFicticios" />
+      <button type="click" id="button">generar</button>
+    </div>
+    <h2 id="noHayLlamadas"></h2>
+    <table border="1" id="table">
+      <thead>
+        <tr>
+          <th>origen</th>
+          <th>destino</th>
+          <th>duracion</th>
+        </tr>
+      </thead>
+      <tbody id="idLlamadas"></tbody>
+    </table>
+    <div class="promedio">
+      <span id="duracionTotalDllamada"></span>
+      <span id="duracionPromedio"></span>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
